@@ -114,4 +114,55 @@ img {
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
+  .title {
+    margin-top: 90px;
+    margin-left: 10px;
+    columns: 1;
+    text-align: center;
+  }
+
+  .table {
+    font-size: 20px;
+    margin-left: 50px;
+    margin-top: 30px;
+  }
+
+  .valor {
+    margin-left: 140px;
+  }
+
+  .final {
+    margin-top: -780px;
+    margin-left: 0px;
+    text-align: center;
+  }
+
+  img {
+    margin-top: 100px;
+    margin-left: 30px;
+    background-size: cover;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1919px) {
+  .title {
+    margin-left: 14px;
+    columns: 2;
+  }
+
+  .table {
+    margin-left: 25px;
+    margin-right: 1300px;
+  }
+
+  .final {
+    margin-top: -140px;
+    margin-left: -700px;
+  }
+
+  img {
+    margin-top: -480px;
+    margin-left: 560px;
+    background-size: contain;
+  }
 }
